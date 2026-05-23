@@ -1,0 +1,91 @@
+header {
+    background-color: var(--color-neutral-0);
+    padding: 12px 4%;
+    width: 100%; /*Garante que o menu ocupe toda a largura da tela.*/
+    position: sticky; /*position: sticky + top: 0: Faz a barra "grudar" no topo ao rolar a página.*/
+    top: 0; /*Faz a barra "grudar" no topo ao rolar a página.*/
+    z-index: 1; /*Mantém o menu em uma camada acima dos outros elementos (evita sobreposição)*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 250px;
+        }
+
+        ul {
+            display: none;
+            list-style: none;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 100%;
+            position: absolute;
+            top: 80px;
+            background-color: var(--color-neutral-0);
+            left: 0;
+            padding: 1rem;
+
+
+            &.show {
+                display: flex;
+            }
+
+            li {
+                text-align: center;
+
+                a {
+                    color: var(--color-neutral-8);
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                    display: inline-block;
+                    border-bottom: 1px solid transparent;
+
+                    &:hover {
+                        color: var(--color-neutral-2);
+                        border-bottom: 1px solid var(--color-neutral-2);
+                    }
+                }
+            }
+        }
+
+        .btn-default {
+            display: none;
+        }
+    }
+}
+
+
+@media (min-width: 769px) {
+    header {
+        .navbar {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            gap: 2rem;
+
+            .btn-mobile {
+                display: none;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                gap: 1rem;
+                width: auto;
+                padding: 0;
+                
+            }
+
+            .btn-default {
+                display: block;
+                
+            }
+        }
+    }
+}
