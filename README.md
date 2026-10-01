@@ -119,7 +119,7 @@ Entre as possibilidades identificadas para futuras versões estão:
 
 A documentação completa apresenta o processo de pesquisa, desenvolvimento, identidade visual, testes com usuários, análise crítica e futuras melhorias.
 
-📎 [Visualizar apresentação do projeto](docs/Apresentacao-WebSite-Debora-Petti.pdf)
+[Apresentação WebSite Debora Petti.pdf](https://github.com/user-attachments/files/32933615/Apresentacao.WebSite.Debora.Petti.pdf)
 
 ---
 
