@@ -57,7 +57,7 @@ O conceito visual também buscou aproximar a identidade da profissional de temas
 
 ## 🖥️ Preview
 
-![Uploading Landing Page Fisioterapeuta Debora Pacini Petti.png…]()
+<img width="1920" height="7083" alt="Landing Page Fisioterapeuta Debora Pacini Petti" src="https://github.com/user-attachments/assets/7705fe1d-2187-41ba-8e3a-29791fcb6c22" />
 
 ---
 
